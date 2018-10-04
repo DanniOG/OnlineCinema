@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MoviesDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Genres">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MovieId" Type="uniqueidentifier" />
+    <Property Name="GenreType" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Movies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="OriginalTitle" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Director" Type="nvarchar(max)" />
+    <Property Name="Cast" Type="nvarchar(max)" />
+    <Property Name="Country" Type="nvarchar(max)" />
+    <Property Name="ReleaseDate" Type="nvarchar(max)" />
+    <Property Name="Dabing" Type="nvarchar(max)" />
+    <Property Name="CoverPath" Type="nvarchar(max)" />
+    <Property Name="Lenght" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="StreamSource">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MovieId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Source" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="MoviesDBModelStoreContainer">
+    <EntitySet Name="Genres" EntityType="Self.Genres" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Movies" EntityType="Self.Movies" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StreamSource" EntityType="Self.StreamSource" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

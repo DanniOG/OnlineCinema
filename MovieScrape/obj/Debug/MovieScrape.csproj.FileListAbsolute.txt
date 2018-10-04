@@ -1,0 +1,15 @@
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\MovieScrape.exe.config
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\MovieScrape.exe
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\MovieScrape.pdb
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\EntityFramework.dll
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\EntityFramework.xml
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\obj\Debug\MovieScrape.csprojAssemblyReference.cache
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\obj\Debug\MovieScrape.csproj.CoreCompileInputs.cache
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\obj\Debug\MovieScrape.csproj.CopyComplete
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\obj\Debug\MovieScrape.exe
+C:\Users\Daniel's PC\source\repos\StreamingService\MovieScrape\obj\Debug\MovieScrape.pdb

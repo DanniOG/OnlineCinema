@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.movie-list{
+    border-right: 1px solid #ececec;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+.movie-list ul{
+    list-style-type: none;
+}
+.movie-list ul li p{
+    list-style-type: none;
+    color: #1a1a1a;
+}
+.movie-list ul li p:hover{
+    list-style-type: none;
+    color: #6d6d6d;
+}
+.movie{
+    width: 80%;
+}
+.movieDetail{
+    display: flex;
+}
